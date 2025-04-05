@@ -1,0 +1,22 @@
+# folders
+/.vscode 
+/__pycache__
+/output
+/sim_build
+
+# types
+*.tar.gz
+*.old
+*.o 
+*.log
+
+# files
+c_model
+binexec_ct
+binexec
+gold_model.py
+xtea_tb_cp.py
+uint32_t_results.txt
+unsigned_long_result.txt
+libxtea2.so
+tea.code-workspace
