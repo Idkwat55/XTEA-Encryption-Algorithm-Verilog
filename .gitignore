@@ -20,3 +20,5 @@ uint32_t_results.txt
 unsigned_long_result.txt
 libxtea2.so
 tea.code-workspace
+xtea_piped_tb.py 
+xtea_piped.v

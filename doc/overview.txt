@@ -1,0 +1,37 @@
+XTEA:
+	- eXtended Tiny Encryption Algorithm
+	- Block Cipher
+	- Preecursor: TEA
+	- Successor: XXTEA
+	- 128-bit key & 64-bit data (configurable data size and no. of rounds)
+	- Structure: Fiestel Network
+	- Authors: David Wheeler & Roger Needham
+	- Symmetric encryption
+	- Delta constant (derived from Golder ratio - 0x9E3779B9 or ( sqrt(5) - 1) * 2 ** 32) )
+	- Uses only simple operations (XOR, Shifts, Addition)
+
+Fiestel Rounds:
+	A Feistel structure is a way to build a block cipher where each round of encryption only modifies half the data, using the other half and a round function.
+
+Key features:
+	- Lightweight
+	- Open source 
+	- Simple 
+	- Effective
+	- Flexible
+
+Applications:
+	- Embedded firmware encryption
+	- IoT device communication
+	- Secure data storage on constrained hardware 
+	- Bootloader and BIOS protection
+	- Smartcards, RFID, NFC tags with tight gate budget
+
+Best Applications:
+	- Super low-end, non-internet-connected devices, or intermittently powered systems like RFID/NFC
+
+improvement Options:
+	- Increase data block size, key size for improved security
+	- Increase no. of rounds for improved security
+	- Data level parallelism (add more cores)
+	- Unrolling

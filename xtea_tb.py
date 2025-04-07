@@ -1,13 +1,11 @@
 # clib ctypes 
 import ctypes
-import struct
 
 
 # path, os 
 from pathlib import Path
 import os
 import traceback
-import binascii
 import random  as rnd
 from colorama import Fore, Back, Style, init 
 import shutil
@@ -16,7 +14,7 @@ import warnings
 # cocotb
 import cocotb
 from cocotb.clock import Clock 
-from cocotb.triggers import RisingEdge, Timer, Event, ClockCycles, ReadOnly
+from cocotb.triggers import RisingEdge, Event, ClockCycles, ReadOnly
 from cocotb.runner import get_runner
 from cocotb.log import logging, SimLog
 
@@ -124,9 +122,6 @@ class TB:
             self.log.debug(f"[model] key_cipher    : {hex(key_cipher)}")
             self.log.debug(f"[model] data_cipher   : {hex(data_cipher)}")
 
-            import ctypes
-            import traceback
-
             lib = ctypes.CDLL('../libxtea.so')  
 
             # Define the function prototype (types of parameters)
@@ -192,7 +187,7 @@ async def random_functional_test(dut):
 
     log.debug("")
     # send a random set of data to dut for encryption 
-    for i in range(0, rnd.randint(1,32)):
+    for i in range(0, 32):
         # 
         # max input is: 2 ** 64 = 18446744073709551616
         #
@@ -530,7 +525,6 @@ def start_build():
     else:
         print_col("[MAIN] set EN_LOG to 1 for log file generation",1,1)
 
-
     runner = get_runner(sim)
     runner.build(
             hdl_toplevel = hdl_toplevel,
@@ -547,7 +541,12 @@ def start_build():
         log_file=log_file
     )
 
-    print_summary()
+    print_col(" ",2,1)
+    print_col("Tests Completed!!",2,1)
+    final = ""
+    if (log_file != None):
+        final = f"Check log file at ./sim_build/{test_module}.log" 
+    print_col(final, 2, 1)
 
 
 if __name__ == "__main__":
