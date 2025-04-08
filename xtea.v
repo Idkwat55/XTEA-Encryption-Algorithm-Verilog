@@ -55,7 +55,6 @@ module xtea (
         IDLE: begin
           busy_o  <= 0;
           valid_o <= 0;
-          limit   <= delta * 32;
           if (valid_i & en_i) begin
             k[0] <= key[127:96];  // First word
             k[1] <= key[95:64];  // Second word

@@ -13,7 +13,7 @@
 XTEA:
 	- eXtended Tiny Encryption Algorithm
 	- Block Cipher
-	- Preecursor: TEA
+	- Precursor: TEA
 	- Successor: XXTEA
 	- 128-bit key & 64-bit data (configurable data size and no. of rounds)
 	- Structure: Fiestel Network
