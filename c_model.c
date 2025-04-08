@@ -53,7 +53,7 @@ int main() {
   printf("	Encrypted full: 0x%" PRIx64 "\n", encrypted_full);
 
   decipher(encrypted, decrypted, key);
-	
+
   printf("Original Data: 0x%" PRIx32 " 0x%" PRIx32 "\n", data[0], data[1]);
 
   printf("Key: 0x%" PRIx32 " 0x%" PRIx32 " 0x%" PRIx32 " 0x%" PRIx32 "\n",
@@ -66,6 +66,6 @@ int main() {
   uint64_t decrypted_full = ((uint64_t)decrypted[0] << 32 | decrypted[1]);
   printf("	Encrypted full: 0x%" PRIx64 "\n", encrypted_full);
   printf("Decrypted full : 0x%" PRIx64 "\n", decrypted_full);
-  printf("Modified Denc\n");
+  printf("DONE");
   return 0;
 }

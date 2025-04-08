@@ -9,6 +9,8 @@
 *.old
 *.o 
 *.log
+*.html
+*.fst
 
 # files
 c_model

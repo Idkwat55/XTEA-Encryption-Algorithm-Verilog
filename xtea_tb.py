@@ -1,3 +1,13 @@
+########################################################################################################################
+#                                                     XTEA Cipher                                                      #
+#                                             Main Module CoCoTB Testbench                                             #
+#                                                                                                                      #
+#                                 Github: https://github.com/Idkwat55?tab=repositories                                 #
+#                                                                                                                      #
+#                                                     Risikesvar G                                                     #
+#                                                       Roshan G                                                       #
+########################################################################################################################
+
 # clib ctypes 
 import ctypes
 
@@ -92,10 +102,7 @@ class TB:
         self.op_decd_list = []
         self.key_list     = []
 
-        self.Driver_Event = Event()
         self.drv_data_i = IpDriver(self.entity, "data_i driver", self.clk, self.entity.data_i,self.log)
-        self.Monitor_Event = Event()
-        self.mon_result_o = SigMonitor(entity=self.entity, name="result_o monitor", clock=self.clk, signal=self.entity.result_o, log=self.log, callback=None, event=self.Monitor_Event)
 
         self.sb = Scoreboard(entity)
 
