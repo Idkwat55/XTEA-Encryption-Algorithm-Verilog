@@ -1,3 +1,0 @@
-cocotb==1.9.2
-cocotb_bus==0.2.1
-colorama==0.4.6

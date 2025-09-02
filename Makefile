@@ -1,4 +1,4 @@
- :v.PHONY: clean default run crun
+.PHONY: clean default run crun
 
 default:
 	@echo "No Target specificed"
