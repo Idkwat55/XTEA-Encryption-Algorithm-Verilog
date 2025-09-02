@@ -16,7 +16,7 @@ XTEA:
 	- Precursor: TEA
 	- Successor: XXTEA
 	- 128-bit key & 64-bit data (configurable data size and no. of rounds)
-	- Structure: Feistel Network
+	- Structure: Fiestel Network
 	- Authors: David Wheeler & Roger Needham
 	- Symmetric encryption
 	- Delta constant (derived from Golder ratio - 0x9E3779B9 or ( sqrt(5) - 1) * 2 ** 32) )
