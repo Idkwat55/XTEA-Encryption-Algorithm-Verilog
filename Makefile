@@ -1,7 +1,7 @@
 .PHONY: clean default run crun
 
 default:
-	@echo "No Target specificed"
+	@echo "No Target specificed. Choose clean, compile, run or crun for all"
 
 clean: 
 	rm ./binexec
