@@ -24,3 +24,6 @@ libxtea2.so
 tea.code-workspace
 xtea_piped_tb.py 
 xtea_piped.v
+time_*
+tags
+*.out

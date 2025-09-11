@@ -5,7 +5,6 @@
 /*                                Github: https://github.com/Idkwat55?tab=repositories                                */
 /*                                                                                                                    */
 /*                                                    Risikesvar G                                                    */
-/*                                                      Roshan G                                                      */
 /**********************************************************************************************************************/
 
 `default_nettype none
