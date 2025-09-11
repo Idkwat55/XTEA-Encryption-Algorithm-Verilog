@@ -1,25 +1,28 @@
-Copyright (c) 2025 Idkwat55 (Risikesvar G)
+BSD 3-Clause License
 
-Permission is hereby granted, free of charge, to any individual obtaining a copy of this material, including but not limited to source code written in Verilog or any HDL, testbenches, simulation files, related documentation and related files of other types (collectively referred to as "the Work"), to use, copy, modify, and share the Work solely for non-commercial, personal, and educational purposes, under the following conditions:
+Copyright (c) 2025, Risikesvar G
 
-1. Attribution:
-   Any use of the Work must include clear and visible credit to the original author. This includes the author's name and a link to the original source or repository where the Work was obtained.
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
 
-2. Non-Commercial Use Only:
-   The Work may not be used, in whole or in part, for any commercial purpose. This includes, but is not limited to, incorporating it into commercial products, selling it as part of a service or IP core, or using it in research or development work that results in commercial gain or profit.
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
 
-3. Permission for Commercial Use:
-   Commercial use, redistribution, sublicensing, or integration into proprietary hardware or software platforms is strictly prohibited without explicit, written permission from the original author. Requests for permission may be sent to: [risikesvarg@gmail.com]
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
 
-4. No Warranty:
-   The Work is provided "as is", without any warranty or guarantee of any kind. The author makes no representations or warranties, express or implied, including but not limited to fitness for a particular purpose, correctness, or compatibility with any hardware or tools.
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
 
-5. No Liability:
-   The author shall not be held liable for any damages, losses, malfunctions, or adverse outcomes resulting from the use, misuse, or inability to use the Work, including but not limited to financial loss, hardware damage, data corruption, or time wasted debugging.
-
-6. Indemnification:
-   By using the Work, you agree to indemnify and hold the author harmless from any claims or disputes that arise from your use of the Work.
-
-
-Use responsibly. You are entirely on your own if anything breaks.
-
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
